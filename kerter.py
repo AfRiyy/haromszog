@@ -1,4 +1,4 @@
-#Ide ne írjatok egyedi bekérést, azt a def-be rakjátok pl def METÓDUSNEVE(szam1,szam2 stb..): és utána a DEF-ben kérjetek be számot az usertől
+#Ide ne írjatok egyedi bekérést, azt a def-be rakjátok pl def METÓDUSNEVE(szam1,szam2 stb..) és én adom meg a if-ben a bekérést
 #Írta:
 def haromszogKerulet(szam):
 number1 = float(input (" Kerület <cm>: "))
@@ -49,6 +49,7 @@ print("4: Nyolcszög terület-kerület")
 szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
 #Háromszög
 if szamValasztas == 1:
+	
 	print("A háromszög kerülete",haromszogKerulet(szam))
 	print("A háromszög területe",haromszogTerulet(szam))
 #Kör
@@ -57,6 +58,8 @@ elif szamValasztas == 2:
 	print("A kör területe",korTerulet(szam))
 #Téglalap
 elif szamValasztas == 3:
+	a=float(input("Add meg a téglalap a oldalát:"))
+	b=float(input("Add meg a téglalap b oldalát:"))
 	print("A téglalap kerülete",teglalapKerulet(a,b))
 	print("A téglalap területe",teglalapTerulet(a,b))
 #Nyolcszög
