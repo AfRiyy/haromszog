@@ -26,10 +26,9 @@ def teglalapKerulet(szam):
 def teglalapTerulet(szam):
 	szam2= a*b
 	return szam2
-print (szam1, "cm2 a t�glalap ker�lete �s", szam2, "a t�glalap ter�lete"
+print (szam1, "cm2 a téglalap ker�lete �s", szam2, "a téglalap területe")
 
-#�rta:
->>>>>>> 29ec0853c4bcaab9d4e2b2252cbe8d0c5123f7c4
+#Írta:
 def nyolcszogKerulet(szam):
 	return szam
 def nyolcszogTerulet(szam):
