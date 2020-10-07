@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Ide ne írjatok egyedi bekérést, azt a def-be rakjátok pl def METÓDUSNEVE(szam1,szam2 stb..) és én adom meg a if-ben a bekérést
 #Írta:
 def haromszogKerulet(szam):
@@ -12,6 +13,34 @@ def haromszogTerulet(szam):
 def korTerulet(szam):
 	result = number1*number2
 	return result
+=======
+#Fő program: Dávid
+print("Válassz:")
+print("1: Háromszög terület-kerület")
+print("2: Kör terület-kerület")
+print("3: Téglalap terület-kerület")
+print("4: Nyolcszög terület-kerület")
+szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
+#Háromszög
+if szamValasztas == 1:
+	haromszogKerulet = 0
+	haromszogTerulet = 0
+#Kör
+elif szamValasztas == 2:
+	korKerulet(szam)
+	korTerulet(szam)
+#Téglalap
+elif szamValasztas == 3:
+	teglalapKerulet(szam)
+	teglalapTerulet(szam)
+#Nyolcszög
+elif szamValasztas == 4:
+	nyolcszogKerulet(szam)
+	nyolcszogTerulet(szam)
+	
+
+
+>>>>>>> b9b99a7da09135b5b0c7981c5e0814d1ed1917da
 def korTerulet(szam):
 	return szam
 	
@@ -40,6 +69,7 @@ def nyolcszogTerulet(szam):
 	return szam
 
 
+<<<<<<< HEAD
 #Fő program: Dávid
 print("Válassz:")
 print("1: Háromszög terület-kerület")
@@ -69,3 +99,13 @@ elif szamValasztas == 4:
 else:
 	print("Nem jó számot írtál be!")
 	
+=======
+	number1 = 0
+number2 = 0
+
+number1 = float(input (" Kerulet <cm>: "))
+number2 = float(input (" Terulet <cm>: "))
+
+	
+
+>>>>>>> b9b99a7da09135b5b0c7981c5e0814d1ed1917da
