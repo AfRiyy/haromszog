@@ -1,12 +1,14 @@
+number1 = 0
+number2 = 0
 
-#Ãrta:
-def haromszogKerulet(szam):
+number1 = float(input (" Kerület <cm>: "))
+number2 = float(input (" Terület <cm>: "))
+
 	
 	return szam
-def haromszogTerulet(szam):
+result = number1*number2
 	return szam
 #Ãrta:
-def korKerulet(szam):
 	return szam
 def korTerulet(szam):
 	return szam
