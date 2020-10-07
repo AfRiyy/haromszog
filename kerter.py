@@ -9,8 +9,8 @@ def haromszogTerulet(szam):
 def korKerulet(szam):
 	return szam
 def korTerulet(szam):
-<<<<<<< HEAD
 	return szam
+	
 #Írta:
 def teglalapKerulet(szam):
 	return szam
@@ -26,7 +26,7 @@ def teglalapKerulet(szam):
 def teglalapTerulet(szam):
 	szam2= a*b
 	return szam2
-print (szam1, "cm2 a téglalap ker�lete �s", szam2, "a téglalap területe")
+print (szam1, "cm2 a téglalap kerülete ", szam2, "a téglalap területe")
 
 #Írta:
 def nyolcszogKerulet(szam):
