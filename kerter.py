@@ -24,14 +24,12 @@ def teglalapTerulet(szam):
 	
 	
 #Írta:Patrícia
-	a=float(input("Adja meg a téglalap a oldalát <cm>:"))
-	b=float(input("Adja meg a téglalap b oldalát <cm>:"))
-def teglalapKerulet(szam):
-	szam1=a*2 + b*2
-	return szam1
-def teglalapTerulet(szam):
-	szam2= a*b
-	return szam2
+def teglalapKerulet(a,b):
+	number1=2 * (a+b)
+	return number1
+def teglalapTerulet(a,b):
+	number1= a*b
+	return number1
 	
 #Írta:
 def nyolcszogKerulet(szam):
