@@ -43,14 +43,21 @@ print("1: Háromszög terület-kerület")
 print("2: Kör terület-kerület")
 print("3: Téglalap terület-kerület")
 print("4: Nyolcszög terület-kerület")
-valasztasSzam=int(input("Írd be a megfelelő számot, melyik induljon el:"))
-def valasztas(valasztasSzam):
-	switcher={
-	1:
-		print("Teszt1!")
-	2:
-	3:
-	4:
-	}
-	return switcher.get(valasztasSzam,"nem  jó szöveget írtál be!")
+szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
+#Háromszög
+if szamValasztas == 1:
+	haromszogKerulet(szam)
+	haromszogTerulet(szam)
+#Kör
+elif szamValasztas == 2:
+	korKerulet(szam)
+	korTerulet(szam)
+#Téglalap
+elif szamValasztas == 3:
+	teglalapKerulet(szam)
+	teglalapTerulet(szam)
+#Nyolcszög
+elif szamValasztas == 4:
+	nyolcszogKerulet(szam)
+	nyolcszogTerulet(szam)
 	

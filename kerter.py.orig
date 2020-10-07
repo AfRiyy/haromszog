@@ -1,23 +1,20 @@
-<<<<<<< HEAD
 number1 = 0
 number2 = 0
 
-number1 = float(input (" Ker�let <cm>: "))
-number2 = float(input (" Ter�let <cm>: "))
-
-result = number1*number2
+<<<<<<< HEAD
+number1 = float(input (" Kerulet <cm>: "))
+number2 = float(input (" Terulet <cm>: "))
 =======
+number1 = float(input (" Kerület <cm>: "))
+number2 = float(input (" Terület <cm>: "))
+>>>>>>> 53896506840957cc88892edbd26bea8e29b52761
 
-#Írta:
-def haromszogKerulet(szam):
 	
 	return szam
-def haromszogTerulet(szam):
+result = number1*number2
 	return szam
 #Írta:
-def korKerulet(szam):
 	return szam
->>>>>>> fad9f2e6a084519a09e21baa1fa72b3da7e9e382
 def korTerulet(szam):
 	return szam
 	
@@ -45,24 +42,27 @@ def nyolcszogTerulet(szam):
 	return szam
 
 
-<<<<<<< HEAD
-#F� program: D�vid
-=======
 #Fő program: Dávid
 print("Válassz:")
 print("1: Háromszög terület-kerület")
 print("2: Kör terület-kerület")
 print("3: Téglalap terület-kerület")
 print("4: Nyolcszög terület-kerület")
-valasztasSzam=int(input("Írd be a megfelelő számot, melyik induljon el:"))
-def valasztas(valasztasSzam):
-	switcher={
-	1:
-		print("Teszt1!")
-	2:
-	3:
-	4:
-	}
-	return switcher.get(valasztasSzam,"nem  jó szöveget írtál be!")
+szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
+#Háromszög
+if szamValasztas == 1:
+	haromszogKerulet(szam)
+	haromszogTerulet(szam)
+#Kör
+elif szamValasztas == 2:
+	korKerulet(szam)
+	korTerulet(szam)
+#Téglalap
+elif szamValasztas == 3:
+	teglalapKerulet(szam)
+	teglalapTerulet(szam)
+#Nyolcszög
+elif szamValasztas == 4:
+	nyolcszogKerulet(szam)
+	nyolcszogTerulet(szam)
 	
->>>>>>> fad9f2e6a084519a09e21baa1fa72b3da7e9e382
