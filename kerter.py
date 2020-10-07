@@ -1,15 +1,29 @@
-number1 = 0
-number2 = 0
-
-number1 = float(input (" Kerulet <cm>: "))
-number2 = float(input (" Terulet <cm>: "))
-
+#Fő program: Dávid
+print("Válassz:")
+print("1: Háromszög terület-kerület")
+print("2: Kör terület-kerület")
+print("3: Téglalap terület-kerület")
+print("4: Nyolcszög terület-kerület")
+szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
+#Háromszög
+if szamValasztas == 1:
+	haromszogKerulet = 0
+	haromszogTerulet = 0
+#Kör
+elif szamValasztas == 2:
+	korKerulet(szam)
+	korTerulet(szam)
+#Téglalap
+elif szamValasztas == 3:
+	teglalapKerulet(szam)
+	teglalapTerulet(szam)
+#Nyolcszög
+elif szamValasztas == 4:
+	nyolcszogKerulet(szam)
+	nyolcszogTerulet(szam)
 	
-	return szam
-result = number1*number2
-	return szam
-#Írta:
-	return szam
+
+
 def korTerulet(szam):
 	return szam
 	
@@ -37,27 +51,11 @@ def nyolcszogTerulet(szam):
 	return szam
 
 
-#Fő program: Dávid
-print("Válassz:")
-print("1: Háromszög terület-kerület")
-print("2: Kör terület-kerület")
-print("3: Téglalap terület-kerület")
-print("4: Nyolcszög terület-kerület")
-szamValasztas=int(input("Írd be a megfelelő számot, melyik induljon el:"))
-#Háromszög
-if szamValasztas == 1:
-	haromszogKerulet(szam)
-	haromszogTerulet(szam)
-#Kör
-elif szamValasztas == 2:
-	korKerulet(szam)
-	korTerulet(szam)
-#Téglalap
-elif szamValasztas == 3:
-	teglalapKerulet(szam)
-	teglalapTerulet(szam)
-#Nyolcszög
-elif szamValasztas == 4:
-	nyolcszogKerulet(szam)
-	nyolcszogTerulet(szam)
+	number1 = 0
+number2 = 0
+
+number1 = float(input (" Kerulet <cm>: "))
+number2 = float(input (" Terulet <cm>: "))
+
 	
+
