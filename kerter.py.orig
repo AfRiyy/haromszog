@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 number1 = 0
 number2 = 0
 
@@ -5,6 +6,14 @@ number1 = float(input ("Kerület <cm>: "))
 number2 = float(input ("Terület <cm>: "))
 
 result = number1*number2
+=======
+#input
+szam=input("Írj be egy számot:")
+#Írta:
+def haromszogKerulet(szam):
+def haromszogTerulet(szam):
+#Írta:
+def korKerulet(szam):
 def korTerulet(szam):
 #Írta:
 def teglalapKerulet(szam):
@@ -15,3 +24,4 @@ def nyolcszogTerulet(szam):
 
 
 #Fõ program: Dávid
+>>>>>>> 59eee2dce2b1172fedca1e08a29c3917925a9463
