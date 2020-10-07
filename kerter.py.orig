@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 #Ide ne írjatok egyedi bekérést, azt a def-be rakjátok pl def METÓDUSNEVE(szam1,szam2 stb..): és utána a DEF-ben kérjetek be számot az usertől
 #Írta:
 def haromszogKerulet(szam):
-number1 = float(input (" Kerület <cm>: "))
-number2 = float(input (" Terület <cm>: "))
+=======
+number1 = 0
+number2 = 0
+
 number1 = float(input (" Kerulet <cm>: "))
 number2 = float(input (" Terulet <cm>: "))
+
+	
+>>>>>>> f9c97fa8dd1fb42526d105f597ccccd61e0fdd1f
 	return szam
 def haromszogTerulet(szam):
 	return szam
