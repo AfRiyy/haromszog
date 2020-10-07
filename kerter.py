@@ -18,8 +18,8 @@ def teglalapTerulet(szam):
 	return szam
 #Írta:Patrícia
 
-	a=float(input(Adja meg a téglalap a oldalát <cm>: ))
-	b=float(input(Adja meg a téglalap b oldalát <cm>: ))
+	a=float(input("Adja meg a téglalap a oldalát <cm>:"))
+	b=float(input("Adja meg a téglalap b oldalát <cm>:"))
 def teglalapKerulet(szam):
 	szam1=a*2 + b*2
 	return szam1
